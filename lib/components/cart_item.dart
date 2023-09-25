@@ -26,7 +26,7 @@ class _CartItemState extends State<CartItem> {
         children: [
           SlidableAction(
             borderRadius: const BorderRadius.only(
-                topLeft: Radius.circular(20), bottomLeft: Radius.circular(10)),
+                topLeft: Radius.circular(10), bottomLeft: Radius.circular(10)),
             onPressed: (context) {
               deleteItem(widget.shoe);
             },
